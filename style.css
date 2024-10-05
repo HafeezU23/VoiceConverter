@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color:black ;
+    background-image: url('bgImage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+
+}
+h2{
+    padding: 10px 0 10px 0;
+    background:linear-gradient(to right, #2d4f7f, #0f346b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:#eefafe ; 
+    text-align: center;
+}
+.text-area{ 
+    position: relative;
+    padding: 50px;
+    background: linear-gradient(to right, #2d4f7f, #0f346b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.785) 0px 10px 90px -10px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -1px 3px 0px inset;
+    
+
+}
+textarea{
+    resize: none;
+    height: 30vmin;
+    width: 50vmin;
+    padding: 1rem;
+    font-size: 20px;
+    
+}
+
+.btn{
+    
+    text-align: center;
+    font-weight: 100;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 999px;
+    outline: none;
+    padding: 1rem 2rem;
+    color: #d62828;
+    
+}
+
+@media (min-width:350px) and (max-width:450px){
+     
+    .btn{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    
+    #text-box{
+    
+       height: 40vh;
+       width: 60vw;
+       font-size: 18px;
+    
+    }
+
+    .text-area{ 
+        
+        box-shadow: rgba(255, 255, 255, 0.785) 0px 5px 40px -5px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -1px 3px 0px inset;
+        
+    
+    }
+
+}
